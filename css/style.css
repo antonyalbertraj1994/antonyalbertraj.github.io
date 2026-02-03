@@ -1,0 +1,73 @@
+/* Navbar container */
+#navbar .navbar {
+  display: flex;           /* arrange links in a row */
+  justify-content: flex-end; /* push links to the right */
+  gap: 20px;               /* space between links */
+  padding: 15px 100px 15px 30px; /* top, right, bottom, left */
+  background-color: #222;  /* dark background */
+  
+}
+
+/* Navbar links */
+#navbar .navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+#navbar .navbar a:hover {
+  color: #00bcd4;  /* highlight on hover */
+}
+
+.profile-pic {
+  width: 300px;          /* size */
+  height: 300px;         /* optional: keep square */
+  object-fit: cover;     /* crop to fit */
+  display: block;
+}
+
+.profile-container {
+    
+  display: flex;             
+  flex-direction: column;        
+  
+}
+
+.image-title {    
+  display:flex;             
+}
+
+
+.profile-text{
+  display: flex;                
+  flex-direction: row;
+  align-items: flex-start;          
+  gap: 40px;
+  padding-top: 20px;
+
+}
+
+.profile-container h1 {
+    font-size: 3.5rem;    /* ~40px for heading */
+    margin-bottom: 10px;
+}
+
+
+#introtext{
+
+  max-width: 60%;       /* maximum width of the text box */
+  width: 100%;            /* allow it to shrink on smaller screens */
+  font-size: 1.2rem;
+  text-align: justify;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.intro {
+  display: flex;               /* side-by-side layout */
+  justify-content: center;     /* centers content horizontally */
+  align-items: center;         /* vertically center if height > content */
+  margin: 20px auto;           /* optional top/bottom spacing, auto left/right centers block if width is set */
+  max-width: 1200px;           /* optional: limit container width */
+  width: 90%;                  /* responsive width */
+}
