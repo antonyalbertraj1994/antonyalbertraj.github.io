@@ -5,7 +5,7 @@
     "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology",
     "conference" : "UIST 2025",
     "pdf": "papers/reconfigurable.pdf",
-    "project": "https://example.com",
+    "project": "",
     "code": "",
     "thumbnailurl":"../assets/images/lightlink.jpg",
     "doi": "https://doi.org/10.1145/3746059.3747623",
@@ -18,9 +18,93 @@
     "conference" : "UIST 2025",
     "pdf": "papers/haptics.pdf",
     "project": "",
-    "code": "https://github.com/yourrepo",
-    "thumbnailurl":"../assets/images/sparseemg2.jpg",
+    "code": "",
+    "thumbnailurl":"../assets/images/sparseemg.jpg",
     "doi": "https://doi.org/10.1145/3746059.3747614",
     "video": "https://www.youtube.com/watch?v=Glz_zT70TPc"
+  },
+    {
+    "title": "Single-handed Folding Interactions with a Modified Clamshell Flip Phone",
+    "authors": "Yen-Ting Yeh, Antony Albert Raj Irudayaraj, and Daniel Vogel",
+    "venue": "Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+    "conference" : "CHI 2024",
+    "pdf": "papers/haptics.pdf",
+    "project": "",
+    "code": "",
+    "thumbnailurl":"../assets/images/flipphone.jpg",
+    "doi": "https://doi.org/10.1145/3613904.3642554",
+    "video": "https://www.youtube.com/watch?v=NimqGOwx_XM"
+  },
+    {
+    "title": "Scatterpixels: Ad Hoc Reconfigurable Physical Pixel Displays",
+    "authors": "Antony Albert Raj Irudayaraj, Jeremy Hartmann, Omid Abari, Daniel Vogel ",
+    "venue": "Proceedings of Graphics Interface 2023",
+    "conference" : "GI 2023",
+    "pdf": "papers/haptics.pdf",
+    "project": "",
+    "code": "",
+    "thumbnailurl":"../assets/images/scatterpixels.jpg",
+    "doi": "https://openreview.net/pdf?id=t-IRQBTmDXV",
+    "video": "https://www.youtube.com/watch?v=mqWK1e05yTs"
+  },
+    {
+    "title": "An Instrumented Office Chair with a Steerable Projector for Personal Spatial Augmented Reality.",
+    "authors": "Nikhita Joshi, Antony Albert Raj Irudayaraj, Jeremy Hartmann, and Daniel Vogel",
+    "venue": "roceedings of Spatial User Interface",
+    "conference" : "SUI 2022",
+    "pdf": "papers/haptics.pdf",
+    "project": "",
+    "code": "",
+    "thumbnailurl":"../assets/images/sarchair.jpg",
+    "doi": "https://dl.acm.org/doi/abs/10.1145/3565970.3567705",
+    "video": "https://www.youtube.com/watch?v=GafgJeUB4bc"
+  },
+    {
+    "title": "PocketView: Through-Fabric Information Displays",
+    "authors": "Antony Albert Raj Irudayaraj, Rishav Agarwal, Nikhita Joshi, Aakar Gupta, Omid Abari, Daniel Vogel",
+    "venue": "In The 34th Annual ACM Symposium on User Interface Software and Technology",
+    "conference" : "UIST 2021",
+    "pdf": "papers/haptics.pdf",
+    "project": "",
+    "code": "",
+    "thumbnailurl":"../assets/images/pocketview.jpg",
+    "doi": "https://doi.org/10.1145/3472749.3474766",
+    "video": "https://www.youtube.com/watch?v=IQ1f2N0jcTk"
+  }
+  ,  {
+    "title": "Expanding Side Touch Input on Mobile Phones: Finger Reachability and Two-Dimensional Taps and Flicks using the Index and Thumb.",
+    "authors": "Yen-Ting Yeh, Quentin Roy, Antony Albert Raj Irudayaraj, Daniel Vogel ",
+    "venue": "In Proceedings of Interactive Surfaces and Spaces 2020",
+    "conference" : "ISS 2020",
+    "pdf": "papers/haptics.pdf",
+    "project": "",
+    "code": "",
+    "thumbnailurl":"../assets/images/sidetouch.jpg",
+    "doi": "https://doi.org/10.1145/3427334",
+    "video": "https://www.youtube.com/watch?v=cYK3FmNqKcg"
+  }
+  ,  {
+    "title": "HapticClench: Investigating Squeeze Sensations using Memory Alloys. ",
+    "authors": "Aakar Gupta, Antony Albert Raj Irudayaraj, Ravin Balakrishnan",
+    "venue": "Proceedings of the 2017 ACM Symposium on User Interface Software and Technology",
+    "conference" : "UIST 2017",
+    "pdf": "papers/haptics.pdf",
+    "project": "",
+    "code": "",
+    "thumbnailurl":"../assets/images/hapticclench.jpg",
+    "doi": "https://doi.org/10.1145/3126594.3126598",
+    "video": "https://www.youtube.com/watch?v=DT96CNQ9d2o"
+  },
+    {
+    "title": "Haptic learning of Freehand Semaphoric Gesture Shortcuts",
+    "authors": "Aakar Gupta, Antony Irudayaraj, Vimal Chandran, Goutham Palaniappan, Khai Truong, and Ravin Balakrishnan",
+    "venue": "Proceedings of the 2016 ACM Symposium on User Interface Software and Technology",
+    "conference" : "UIST 2016",
+    "pdf": "papers/haptics.pdf",
+    "project": "",
+    "code": "",
+    "thumbnailurl":"../assets/images/hapticlearning.jpg",
+    "doi": "https://doi.org/10.1145/2984511.2984558",
+    "video": "https://www.youtube.com/watch?v=euy65aaQDy0"
   }
 ]
