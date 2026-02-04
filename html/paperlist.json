@@ -1,0 +1,22 @@
+[
+  {
+    "title": "LightLink: Enhancing Smartwatch Sensing and Actuation Through Visible Light Communication",
+    "authors": "Antony Albert Raj Irudayaraj and Aditya Shekhar Nittala",
+    "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology",
+    "conference" : "UIST 2025",
+    "pdf": "papers/reconfigurable.pdf",
+    "project": "https://example.com",
+    "code": "",
+    "thumbnailurl":"../assets/images/lightlink.jpg"
+  },
+  {
+    "title": "SparseEMG: Computational Design of Sparse EMG Layouts for Sensing Gestures",
+    "authors": "Anand Kumar, Antony Albert Raj Irudayaraj, Ishita Chandra, Adwait Sharma, and Aditya Shekhar Nittala",
+    "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology",
+    "conference" : "UIST 2025",
+    "pdf": "papers/haptics.pdf",
+    "project": "",
+    "code": "https://github.com/yourrepo",
+    "thumbnailurl":"../assets/images/sparseemg2.jpg"
+  }
+]

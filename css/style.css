@@ -55,7 +55,6 @@
 
 
 #introtext{
-
   max-width: 60%;       /* maximum width of the text box */
   width: 100%;            /* allow it to shrink on smaller screens */
   font-size: 1.2rem;
@@ -70,4 +69,86 @@
   margin: 20px auto;           /* optional top/bottom spacing, auto left/right centers block if width is set */
   max-width: 1200px;           /* optional: limit container width */
   width: 90%;                  /* responsive width */
+}
+
+.paperinfotext{
+  display: flex;
+  flex-direction: column;        
+  
+}
+
+.paper-temp{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;  
+  gap: 2%;
+  padding: 15px 30px; /* top, right, bottom, left */
+} 
+
+.thumbnail {
+  width: 100%;          /* size */
+  max-width: 150px;
+  height: auto;         /* optional: keep square */
+  object-fit: cover;     /* crop to fit */
+  display: block;
+}
+
+#research-container {
+  display: flex;             
+  flex-direction: column;
+  align-items: flex-start;  
+  width: 1000px;      
+}
+
+.research{
+  display: flex;               /* side-by-side layout */
+  justify-content: center;     /* centers content horizontally */
+  align-items: center;         /* vertically center if height > content */
+  margin: 20px auto;           /* optional top/bottom spacing, auto left/right centers block if width is set */
+  max-width: 1200px;           /* optional: limit container width */
+  width: 90%;    
+}
+
+.paper-title{
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-bottom: 2%;
+}
+
+.paper-authors{
+  font-size: 1.2rem;
+  padding-bottom: 2%;
+}
+
+.paper-venue{
+  font-size: 1.2rem;
+  padding-bottom: 1%;
+}
+
+.paper-conference{
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-bottom: 1%;
+}
+
+/* .venue-conference{
+display: flex;
+flex-direction: row;
+} */
+
+@media (max-width: 600px) {
+    .paper-temp {
+        flex-direction: column; /* stack vertically */
+    }
+
+    .paperinfotext {
+        width: 100%; /* full width for stacked layout */
+    }
+    .thumbnail {
+      width: 100%;          /* size */
+      max-width: none;
+      
+
+    }
+
 }
