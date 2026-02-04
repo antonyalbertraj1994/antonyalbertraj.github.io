@@ -7,7 +7,9 @@
     "pdf": "papers/reconfigurable.pdf",
     "project": "https://example.com",
     "code": "",
-    "thumbnailurl":"../assets/images/lightlink.jpg"
+    "thumbnailurl":"../assets/images/lightlink.jpg",
+    "doi": "https://doi.org/10.1145/3746059.3747623",
+    "video": "https://www.youtube.com/watch?v=DtiM5D6RK40"
   },
   {
     "title": "SparseEMG: Computational Design of Sparse EMG Layouts for Sensing Gestures",
@@ -17,6 +19,8 @@
     "pdf": "papers/haptics.pdf",
     "project": "",
     "code": "https://github.com/yourrepo",
-    "thumbnailurl":"../assets/images/sparseemg2.jpg"
+    "thumbnailurl":"../assets/images/sparseemg2.jpg",
+    "doi": "https://doi.org/10.1145/3746059.3747614",
+    "video": "https://www.youtube.com/watch?v=Glz_zT70TPc"
   }
 ]

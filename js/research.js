@@ -27,6 +27,22 @@ async function loadData() {
             clone.querySelector(".paper-title").textContent = paper.title 
             clone.querySelector(".paper-authors").textContent = paper.authors 
             clone.querySelector(".paper-venue").innerHTML = `${paper.venue} <b>(${paper.conference})</b>` 
+            
+            if (paper.pdf) {
+                clone.querySelector(".paper-pdf").href = paper.pdf
+                clone.querySelector(".paper-pdf").innerHTML = "PDF"
+            }
+
+            if (paper.doi) {
+                clone.querySelector(".paper-doi").innerHTML = "DOI"
+                clone.querySelector(".paper-doi").href = paper.doi
+            }
+
+            if (paper.video) {
+                clone.querySelector(".paper-video").innerHTML = "VIDEO"
+                clone.querySelector(".paper-video").href = paper.video
+            }
+
 
             clone.querySelector(".thumbnail").src = paper.thumbnailurl
             console.log(`Researchjs:${paper.title}`)
